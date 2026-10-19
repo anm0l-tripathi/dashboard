@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sales Dashboard 2025</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--tx:#1b2430;--mu:#667085;--bd:#e3e8ef;--a:#2f6fdd;--b:#f08a24;--c:#2e9d6b;--d:#8e5bd6;--e:#d64f5e;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f141b;--card:#1a212b;--tx:#e8edf4;--mu:#9aa6b5;--bd:#2a3340;--a:#6d9cf5;--b:#f5a352;--c:#4cc38f;--d:#b08cf0;--e:#ef7683;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f141b;--card:#1a212b;--tx:#e8edf4;--mu:#9aa6b5;--bd:#2a3340;--a:#6d9cf5;--b:#f5a352;--c:#4cc38f;--d:#b08cf0;--e:#ef7683;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:1100px;margin:0 auto;padding:16px}
+h1{font-size:20px;margin:0 0 2px}.sub{color:var(--mu);font-size:13px;margin-bottom:12px}
+.f{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+select,button{flex:1 1 110px;padding:9px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);font:inherit}
+.k{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:12px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px}
+.k .c b{display:block;font-size:22px;margin-top:2px}.k span,.c h2{color:var(--mu);font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;margin:0 0 8px}
+.g{display:grid;grid-template-columns:1fr;gap:12px}.box{position:relative;height:230px}
+.ins li{margin:6px 0}.ins ul{padding-left:18px;margin:0}
+@media(min-width:760px){.k{grid-template-columns:repeat(4,1fr)}.g{grid-template-columns:1fr 1fr}.wide{grid-column:span 2}}
+</style></head><body><div class="w">
+<h1>Sales Dashboard 2025</h1><div class="sub">200 orders · 7 cities · 5 products · use the filters to explore</div>
+<div class="f"><select id="fc"></select><select id="fp"></select><select id="fy"></select><button id="rs">Reset</button></div>
+<div class="k"><div class="c"><span>Revenue</span><b id="k1"></b></div><div class="c"><span>Orders</span><b id="k2"></b></div><div class="c"><span>Avg order</span><b id="k3"></b></div><div class="c"><span>Avg rating</span><b id="k4"></b></div></div>
+<div class="g">
+<div class="c wide"><h2>Monthly revenue (₹ lakh)</h2><div class="box"><canvas id="m"></canvas></div></div>
+<div class="c"><h2>Revenue by product (₹ lakh)</h2><div class="box"><canvas id="p"></canvas></div></div>
+<div class="c"><h2>Revenue by city (₹ lakh)</h2><div class="box"><canvas id="ci"></canvas></div></div>
+<div class="c"><h2>Orders by payment method</h2><div class="box"><canvas id="y"></canvas></div></div>
+<div class="c"><h2>Average rating by product</h2><div class="box"><canvas id="r"></canvas></div></div>
+<div class="c wide ins"><h2>Main findings (all data)</h2><ul>
+<li>Mobile and Tablet bring in about 45% of revenue.</li>
+<li>Tablet (2.8) and Laptop (2.7) sell well but have the lowest ratings.</li>
+<li>Chennai, Delhi and Pune generate over half of revenue.</li>
+<li>Sales peak in June–July and dip in April and November.</li>
+<li>Customers aged 18–30 spend the most per order (about ₹43k).</li></ul></div>
+</div></div>
+<script>
+const C=["Bangalore", "Chennai", "Delhi", "Hyderabad", "Kolkata", "Mumbai", "Pune"],P=["Headphones", "Laptop", "Mobile", "Smartwatch", "Tablet"],Y=["Cash", "Credit Card", "Debit Card", "UPI"],M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const D=[[3,4,0,59,2,18790,0,2],[2,3,2,20,1,33553,0,3],[3,3,3,31,1,35044,0,5],[6,2,1,41,5,61270,0,5],[6,0,3,64,5,77082,0,3],[6,3,2,52,3,64373,0,3],[6,4,3,54,1,18262,0,2],[2,0,3,65,3,1895,0,5],[1,0,0,39,3,41999,0,null],[1,4,2,32,3,54318,0,1],[6,2,0,21,3,79734,0,4],[1,3,0,60,1,56448,0,3],[3,4,1,34,4,50429,0,3],[2,1,3,23,2,39430,0,1],[3,4,0,63,3,15029,0,3],[1,4,2,38,4,70242,0,4],[1,1,1,61,2,8022,0,3],[1,0,0,22,4,31927,0,5],[3,4,1,55,4,52549,1,5],[0,4,1,60,3,42645,1,3],[0,4,2,46,1,22219,1,4],[5,3,3,59,1,35040,1,null],[5,4,2,54,5,57767,1,4],[0,2,1,38,3,24676,1,1],[5,1,0,65,4,14156,1,2],[6,4,0,39,3,55023,1,1],[2,0,0,44,2,69625,1,4],[4,3,3,23,5,3434,1,5],[2,2,0,42,5,10649,1,4],[0,4,2,65,5,30900,1,2],[4,2,3,33,5,21016,1,5],[4,4,3,32,1,35413,1,4],[1,2,2,41,3,11006,1,5],[5,3,3,30,5,67755,1,2],[0,4,1,22,4,65954,1,2],[4,2,2,61,4,11771,2,2],[4,0,2,47,3,64408,2,3],[6,2,3,36,4,6347,2,1],[4,1,0,64,3,32192,2,5],[3,2,2,42,1,39538,2,2],[2,0,1,43,2,48127,2,3],[2,2,1,48,1,33592,2,4],[1,4,1,45,3,2000,2,3],[6,3,0,63,3,29107,2,5],[0,0,2,31,3,14896,2,1],[2,3,3,47,5,57385,2,4],[2,1,2,48,4,78930,2,2],[2,0,0,56,5,1574,2,4],[2,3,3,26,3,40102,2,5],[1,1,1,43,5,7519,3,4],[5,3,1,47,3,27330,3,3],[4,4,0,18,3,6410,3,5],[5,2,3,33,1,64273,3,4],[5,2,2,20,1,34201,3,1],[1,3,2,22,5,39327,3,5],[2,2,3,25,3,26970,3,5],[0,3,2,27,2,64176,3,5],[4,1,0,49,5,41537,3,4],[1,4,3,52,3,78620,3,2],[2,1,1,41,3,23505,4,3],[1,4,1,21,5,47754,4,3],[6,3,3,19,1,55244,4,5],[6,0,1,61,2,14934,4,5],[2,1,1,52,2,36434,4,2],[3,0,3,49,3,69827,4,2],[2,3,1,23,1,4879,4,3],[2,4,1,65,4,4040,4,3],[5,1,1,20,null,36295,4,5],[5,1,0,43,1,9425,4,5],[0,2,2,39,1,5347,4,3],[3,4,0,48,5,30285,4,1],[0,4,1,26,1,28069,4,2],[0,2,2,53,1,5722,4,5],[2,3,2,50,5,50646,4,4],[6,4,3,32,5,47679,4,null],[6,0,1,61,3,68925,4,2],[0,3,1,21,1,63174,4,null],[5,2,1,37,3,25019,5,5],[5,3,3,35,1,12252,5,5],[2,2,1,65,1,77414,5,3],[1,0,0,22,1,64642,5,3],[1,3,3,63,5,42644,5,2],[3,3,1,39,1,49781,5,4],[2,0,2,22,4,20627,5,4],[4,1,0,55,2,57846,5,4],[1,2,3,54,2,43791,5,3],[6,0,2,28,5,57351,5,3],[5,4,3,39,3,30541,5,1],[1,1,3,21,4,32778,5,1],[6,2,1,44,1,73884,5,2],[2,0,3,32,1,75231,5,1],[0,4,1,59,2,37802,5,2],[2,2,1,40,5,8526,5,4],[0,2,1,41,1,60454,5,4],[6,0,2,57,3,30132,5,5],[2,2,1,28,3,26197,5,1],[2,0,1,36,null,13347,5,4],[1,4,2,42,5,72728,5,3],[0,2,3,36,2,49934,5,4],[0,1,2,39,2,29574,6,2],[4,3,1,34,4,3324,6,4],[6,0,0,28,5,16512,6,1],[0,1,0,42,4,59137,6,2],[2,4,0,55,1,77826,6,1],[1,2,1,30,3,71103,6,1],[0,3,3,59,4,77266,6,5],[3,4,1,58,4,8855,6,2],[3,4,0,26,1,72187,6,3],[6,0,2,47,5,40152,6,1],[3,0,3,28,5,56374,6,5],[4,1,2,45,4,30654,6,3],[1,3,1,65,5,74155,6,4],[5,0,0,36,4,36495,6,5],[1,2,3,65,5,68116,6,1],[6,3,3,41,3,51496,6,4],[1,1,2,35,4,71690,6,5],[3,1,3,47,4,23132,6,5],[2,1,0,63,4,26479,6,1],[4,3,0,49,4,29267,6,3],[1,3,3,20,1,7438,6,3],[1,3,1,40,1,13246,6,4],[2,3,1,50,2,23780,6,5],[5,4,1,18,5,73471,6,5],[0,0,0,52,2,18822,7,5],[5,1,0,53,4,17699,7,4],[1,0,2,40,5,44857,7,3],[1,4,0,45,5,6724,7,5],[2,4,0,45,5,22307,7,3],[3,0,0,26,4,79408,7,3],[2,0,1,56,3,56127,7,2],[5,2,2,47,1,55881,7,5],[4,1,1,46,3,12901,7,2],[3,0,0,18,1,30564,7,3],[0,0,2,40,5,64798,7,1],[6,4,2,46,3,23685,7,2],[2,3,2,25,5,34162,7,2],[4,4,0,61,5,60338,7,3],[3,3,3,44,null,30252,7,5],[5,2,2,32,2,79314,8,null],[2,3,0,35,4,79156,8,2],[1,3,3,59,1,58034,8,5],[6,1,0,20,4,38166,8,2],[4,2,1,49,1,33099,8,5],[5,1,3,34,5,27681,8,3],[5,2,0,25,4,75119,8,3],[5,2,1,46,3,14654,8,5],[3,0,3,50,2,23237,8,4],[5,2,2,22,4,23179,8,null],[3,4,3,22,4,76853,8,3],[3,1,1,65,5,9788,9,1],[0,2,2,54,2,61442,9,5],[0,4,0,33,5,10468,9,2],[5,0,1,38,1,25008,9,2],[6,4,0,61,2,40566,9,1],[6,1,3,28,3,40815,9,3],[6,4,2,56,3,70663,9,2],[6,4,1,18,4,75019,9,1],[1,0,3,23,5,26542,9,4],[1,2,0,42,4,70375,9,2],[2,2,2,45,3,78122,9,3],[1,2,3,51,4,72557,9,4],[0,1,1,25,5,73016,9,4],[4,1,0,45,3,71327,9,1],[0,1,2,60,2,21780,9,2],[0,1,2,37,2,47351,9,2],[3,0,0,47,4,34280,9,2],[4,3,3,44,4,16248,9,2],[1,2,1,63,1,10805,9,2],[5,4,2,52,5,54034,10,5],[2,4,3,37,1,28294,10,2],[4,4,3,46,5,19714,10,2],[0,3,3,31,5,14506,10,3],[2,3,3,27,5,51332,10,1],[4,3,3,43,5,77377,10,1],[2,3,1,46,4,50674,10,1],[1,1,3,63,5,33211,10,null],[6,1,3,25,3,55016,10,1],[4,2,1,51,2,10466,10,5],[6,2,0,21,5,4299,10,2],[6,4,0,65,2,3346,10,3],[2,4,0,36,4,27643,11,3],[0,4,0,30,4,29547,11,5],[0,2,2,24,2,40006,11,2],[4,1,3,21,4,55665,11,5],[5,1,2,44,3,57019,11,1],[2,2,1,54,5,45752,11,1],[1,1,1,59,3,61536,11,1],[0,3,3,52,4,16543,11,2],[4,2,2,40,2,44578,11,5],[6,2,3,44,3,74885,11,2],[1,3,2,36,4,71479,11,1],[1,1,0,33,3,16948,11,1],[2,3,3,22,1,18045,11,3],[4,1,0,35,1,71881,11,1],[6,0,0,36,1,66691,11,4],[5,4,3,31,2,47892,11,3],[2,2,2,20,2,58866,11,3],[1,2,2,24,2,18327,11,5],[2,3,3,65,4,10952,11,3],[0,0,0,48,4,43055,11,5]]; // [city,product,payment,age,qty,amount,month,rating]
+const fc=document.getElementById("fc"),fp=document.getElementById("fp"),fy=document.getElementById("fy");
+function fill(s,l,a){s.innerHTML='<option value="">'+l+'</option>'+a.map((x,i)=>'<option value="'+i+'">'+x+'</option>').join("")}
+fill(fc,"All cities",C);fill(fp,"All products",P);fill(fy,"All payments",Y);
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const ch={};
+function mk(id,type,col,extra){const o={responsive:true,maintainAspectRatio:false,plugins:{legend:{display:type==="doughnut",labels:{color:css("--tx")}}},scales:type==="doughnut"?{}:{x:{ticks:{color:css("--mu")},grid:{display:false}},y:{ticks:{color:css("--mu")},grid:{color:css("--bd")},beginAtZero:true}}};
+ if(extra)Object.assign(o,extra);ch[id]=new Chart(document.getElementById(id),{type,data:{labels:[],datasets:[{data:[],backgroundColor:col,borderColor:col,tension:.3}]},options:o})}
+const pal=()=>[css("--a"),css("--b"),css("--c"),css("--d"),css("--e"),css("--mu"),css("--a")];
+function init(){mk("m","line",css("--a"));mk("p","bar",css("--a"),{indexAxis:"y"});mk("ci","bar",css("--c"),{indexAxis:"y"});mk("y","doughnut",pal());mk("r","bar",css("--b"),{indexAxis:"y"});ch.r.options.scales.x.max=5}
+function set(id,l,v){const c=ch[id];c.data.labels=l;c.data.datasets[0].data=v;c.update()}
+function agg(rows,ki,n){const s=Array(n).fill(0);rows.forEach(r=>s[r[ki]]+=r[5]);return s}
+function render(){
+ const a=fc.value,b=fp.value,y=fy.value;
+ const R=D.filter(r=>(a===""||r[0]==a)&&(b===""||r[1]==b)&&(y===""||r[2]==y));
+ const tot=R.reduce((s,r)=>s+r[5],0),rt=R.filter(r=>r[7]!==null);
+ document.getElementById("k1").textContent="₹"+(tot/1e5).toFixed(1)+"L";
+ document.getElementById("k2").textContent=R.length;
+ document.getElementById("k3").textContent=R.length?"₹"+Math.round(tot/R.length).toLocaleString("en-IN"):"–";
+ document.getElementById("k4").textContent=rt.length?(rt.reduce((s,r)=>s+r[7],0)/rt.length).toFixed(2):"–";
+ set("m",M,agg(R,6,12).map(v=>+(v/1e5).toFixed(2)));
+ set("p",P,agg(R,1,P.length).map(v=>+(v/1e5).toFixed(2)));
+ set("ci",C,agg(R,0,C.length).map(v=>+(v/1e5).toFixed(2)));
+ const pc=Array(Y.length).fill(0);R.forEach(r=>pc[r[2]]++);set("y",Y,pc);
+ set("r",P,P.map((_,i)=>{const x=rt.filter(r=>r[1]==i);return x.length?+(x.reduce((s,r)=>s+r[7],0)/x.length).toFixed(2):0}));
+}
+[fc,fp,fy].forEach(e=>e.onchange=render);
+document.getElementById("rs").onclick=()=>{fc.value=fp.value=fy.value="";render()};
+init();render();
+</script></body></html>

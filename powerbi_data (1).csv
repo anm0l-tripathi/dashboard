@@ -1,0 +1,201 @@
+order_id,customer_name,email,age,city,product,quantity,amount,order_date,payment_method,rating,month_num,month,age_group
+1130,Sneha Singh,sneha.singh@example.com,59,Hyderabad,Tablet,2.0,18790.0,2025-01-01,Cash,2.0,1,Jan,46-60
+1138,Deepak Patel,deepak.patel@example.com,20,Delhi,Smartwatch,1.0,33553.0,2025-01-02,Debit Card,3.0,1,Jan,18-30
+1071,Vikram Iyer,vikram.iyer@example.com,31,Hyderabad,Smartwatch,1.0,35044.0,2025-01-03,UPI,5.0,1,Jan,31-45
+1108,Neha Patel,neha.patel@example.com,41,Pune,Mobile,5.0,61270.0,2025-01-05,Credit Card,5.0,1,Jan,31-45
+1176,Rohan Gupta,rohan.gupta@example.com,64,Pune,Headphones,5.0,77082.0,2025-01-07,UPI,3.0,1,Jan,61+
+1146,Suresh Reddy,suresh.reddy@example.com,52,Pune,Smartwatch,3.0,64373.0,2025-01-10,Debit Card,3.0,1,Jan,46-60
+1199,Deepak Singh,deepak.singh@example.com,54,Pune,Tablet,1.0,18262.0,2025-01-12,UPI,2.0,1,Jan,46-60
+1099,Meena Iyer,meena.iyer@example.com,65,Delhi,Headphones,3.0,1895.0,2025-01-12,UPI,5.0,1,Jan,61+
+1058,Meena Sharma,meena.sharma@example.com,39,Chennai,Headphones,3.0,41999.0,2025-01-15,Cash,,1,Jan,31-45
+1159,Ritu Joshi,ritu.joshi@example.com,32,Chennai,Tablet,3.0,54318.0,2025-01-20,Debit Card,1.0,1,Jan,31-45
+1186,Rahul Iyer,rahul.iyer@example.com,21,Pune,Mobile,3.0,79734.0,2025-01-21,Cash,4.0,1,Jan,18-30
+1013,Deepak Reddy,deepak.reddy@example.com,60,Chennai,Smartwatch,1.0,56448.0,2025-01-21,Cash,3.0,1,Jan,46-60
+1073,Meena Sharma,meena.sharma@example.com,34,Hyderabad,Tablet,4.0,50429.0,2025-01-23,Credit Card,3.0,1,Jan,31-45
+1003,Divya Joshi,divya.joshi@example.com,23,Delhi,Laptop,2.0,39430.0,2025-01-24,UPI,1.0,1,Jan,18-30
+1197,Divya Mehta,divya.mehta@example.com,63,Hyderabad,Tablet,3.0,15029.0,2025-01-24,Cash,3.0,1,Jan,61+
+1103,Anjali Mehta,anjali.mehta@example.com,38,Chennai,Tablet,4.0,70242.0,2025-01-25,Debit Card,4.0,1,Jan,31-45
+1059,Rahul Joshi,rahul.joshi@example.com,61,Chennai,Laptop,2.0,8022.0,2025-01-27,Credit Card,3.0,1,Jan,61+
+1112,Vikram Patel,vikram.patel@example.com,22,Chennai,Headphones,4.0,31927.0,2025-01-28,Cash,5.0,1,Jan,18-30
+1025,Rahul Verma,rahul.verma@example.com,55,Hyderabad,Tablet,4.0,52549.0,2025-02-01,Credit Card,5.0,2,Feb,46-60
+1020,Meena Reddy,meena.reddy@example.com,60,Bangalore,Tablet,3.0,42645.0,2025-02-05,Credit Card,3.0,2,Feb,46-60
+1083,Neha Mehta,neha.mehta@example.com,46,Bangalore,Tablet,1.0,22219.0,2025-02-07,Debit Card,4.0,2,Feb,46-60
+1173,Ritu Singh,ritu.singh@example.com,59,Mumbai,Smartwatch,1.0,35040.0,2025-02-08,UPI,,2,Feb,46-60
+1061,Priya Mehta,priya.mehta@example.com,54,Mumbai,Tablet,5.0,57767.0,2025-02-09,Debit Card,4.0,2,Feb,46-60
+1168,Manish Singh,manish.singh@example.com,38,Bangalore,Mobile,3.0,24676.0,2025-02-11,Credit Card,1.0,2,Feb,31-45
+1056,Vikram Iyer,vikram.iyer@example.com,65,Mumbai,Laptop,4.0,14156.0,2025-02-13,Cash,2.0,2,Feb,61+
+1038,Deepak Mehta,deepak.mehta@example.com,39,Pune,Tablet,3.0,55023.0,2025-02-16,Cash,1.0,2,Feb,31-45
+1141,Ritu Sharma,ritu.sharma@example.com,44,Delhi,Headphones,2.0,69625.0,2025-02-17,Cash,4.0,2,Feb,31-45
+1011,Rohan Iyer,rohan.iyer@example.com,23,Kolkata,Smartwatch,5.0,3434.0,2025-02-20,UPI,5.0,2,Feb,18-30
+1193,Rahul Nair,rahul.nair@example.com,42,Delhi,Mobile,5.0,10649.0,2025-02-21,Cash,4.0,2,Feb,31-45
+1184,Meena Sharma,meena.sharma@example.com,65,Bangalore,Tablet,5.0,30900.0,2025-02-22,Debit Card,2.0,2,Feb,61+
+1109,Suresh Mehta,suresh.mehta@example.com,33,Kolkata,Mobile,5.0,21016.0,2025-02-24,UPI,5.0,2,Feb,31-45
+1119,Amit Nair,amit.nair@example.com,32,Kolkata,Tablet,1.0,35413.0,2025-02-24,UPI,4.0,2,Feb,31-45
+1149,Aarav Singh,aarav.singh@example.com,41,Chennai,Mobile,3.0,11006.0,2025-02-26,Debit Card,5.0,2,Feb,31-45
+1098,Suresh Nair,suresh.nair@example.com,30,Mumbai,Smartwatch,5.0,67755.0,2025-02-27,UPI,2.0,2,Feb,18-30
+1034,Anjali Sharma,anjali.sharma@example.com,22,Bangalore,Tablet,4.0,65954.0,2025-02-28,Credit Card,2.0,2,Feb,18-30
+1157,Anjali Reddy,anjali.reddy@example.com,61,Kolkata,Mobile,4.0,11771.0,2025-03-06,Debit Card,2.0,3,Mar,61+
+1194,Kavya Gupta,kavya.gupta@example.com,47,Kolkata,Headphones,3.0,64408.0,2025-03-10,Debit Card,3.0,3,Mar,46-60
+1074,Manish Iyer,manish.iyer@example.com,36,Pune,Mobile,4.0,6347.0,2025-03-11,UPI,1.0,3,Mar,31-45
+1102,Meena Reddy,meena.reddy@example.com,64,Kolkata,Laptop,3.0,32192.0,2025-03-13,Cash,5.0,3,Mar,61+
+1084,Sneha Gupta,sneha.gupta@example.com,42,Hyderabad,Mobile,1.0,39538.0,2025-03-14,Debit Card,2.0,3,Mar,31-45
+1143,Isha Sharma,isha.sharma@example.com,43,Delhi,Headphones,2.0,48127.0,2025-03-17,Credit Card,3.0,3,Mar,31-45
+1022,Neha Gupta,neha.gupta@example.com,48,Delhi,Mobile,1.0,33592.0,2025-03-17,Credit Card,4.0,3,Mar,46-60
+1154,Amit Joshi,amit.joshi@example.com,45,Chennai,Tablet,3.0,2000.0,2025-03-20,Credit Card,3.0,3,Mar,31-45
+1015,Sneha Patel,sneha.patel@example.com,63,Pune,Smartwatch,3.0,29107.0,2025-03-21,Cash,5.0,3,Mar,61+
+1002,Anjali Mehta,anjali.mehta@example.com,31,Bangalore,Headphones,3.0,14896.0,2025-03-21,Debit Card,1.0,3,Mar,31-45
+1121,Neha Verma,neha.verma@example.com,47,Delhi,Smartwatch,5.0,57385.0,2025-03-23,UPI,4.0,3,Mar,46-60
+1175,Anjali Patel,anjali.patel@example.com,48,Delhi,Laptop,4.0,78930.0,2025-03-23,Debit Card,2.0,3,Mar,46-60
+1007,Isha Reddy,isha.reddy@example.com,56,Delhi,Headphones,5.0,1574.0,2025-03-24,Cash,4.0,3,Mar,46-60
+1150,Isha Nair,isha.nair@example.com,26,Delhi,Smartwatch,3.0,40102.0,2025-03-31,UPI,5.0,3,Mar,18-30
+1139,Divya Patel,divya.patel@example.com,43,Chennai,Laptop,5.0,7519.0,2025-04-02,Credit Card,4.0,4,Apr,31-45
+1122,Rohan Joshi,rohan.joshi@example.com,47,Mumbai,Smartwatch,3.0,27330.0,2025-04-06,Credit Card,3.0,4,Apr,46-60
+1094,Priya Mehta,priya.mehta@example.com,18,Kolkata,Tablet,3.0,6410.0,2025-04-06,Cash,5.0,4,Apr,18-30
+1105,Rahul Gupta,rahul.gupta@example.com,33,Mumbai,Mobile,1.0,64273.0,2025-04-08,UPI,4.0,4,Apr,31-45
+1161,Suresh Joshi,suresh.joshi@example.com,20,Mumbai,Mobile,1.0,34201.0,2025-04-09,Debit Card,1.0,4,Apr,18-30
+1086,Amit Sharma,amit.sharma@example.com,22,Chennai,Smartwatch,5.0,39327.0,2025-04-10,Debit Card,5.0,4,Apr,18-30
+1192,Suresh Singh,suresh.singh@example.com,25,Delhi,Mobile,3.0,26970.0,2025-04-24,UPI,5.0,4,Apr,18-30
+1097,Sneha Gupta,sneha.gupta@example.com,27,Bangalore,Smartwatch,2.0,64176.0,2025-04-24,Debit Card,5.0,4,Apr,18-30
+1163,Anjali Joshi,anjali.joshi@example.com,49,Kolkata,Laptop,5.0,41537.0,2025-04-25,Cash,4.0,4,Apr,46-60
+1185,Arjun Reddy,arjun.reddy@example.com,52,Chennai,Tablet,3.0,78620.0,2025-04-26,UPI,2.0,4,Apr,46-60
+1151,Ritu Singh,ritu.singh@example.com,41,Delhi,Laptop,3.0,23505.0,2025-05-02,Credit Card,3.0,5,May,31-45
+1085,Rohan Mehta,rohan.mehta@example.com,21,Chennai,Tablet,5.0,47754.0,2025-05-04,Credit Card,3.0,5,May,18-30
+1140,Ritu Reddy,ritu.reddy@example.com,19,Pune,Smartwatch,1.0,55244.0,2025-05-06,UPI,5.0,5,May,18-30
+1001,Sneha Sharma,sneha.sharma@example.com,61,Pune,Headphones,2.0,14934.0,2025-05-06,Credit Card,5.0,5,May,61+
+1147,Deepak Reddy,deepak.reddy@example.com,52,Delhi,Laptop,2.0,36434.0,2025-05-07,Credit Card,2.0,5,May,46-60
+1024,Anjali Iyer,anjali.iyer@example.com,49,Hyderabad,Headphones,3.0,69827.0,2025-05-07,UPI,2.0,5,May,46-60
+1053,Arjun Singh,arjun.singh@example.com,23,Delhi,Smartwatch,1.0,4879.0,2025-05-09,Credit Card,3.0,5,May,18-30
+1027,Rahul Mehta,rahul.mehta@example.com,65,Delhi,Tablet,4.0,4040.0,2025-05-10,Credit Card,3.0,5,May,61+
+1019,Meena Nair,meena.nair@example.com,20,Mumbai,Laptop,,36295.0,2025-05-14,Credit Card,5.0,5,May,18-30
+1135,Aarav Joshi,aarav.joshi@example.com,43,Mumbai,Laptop,1.0,9425.0,2025-05-15,Cash,5.0,5,May,31-45
+1137,Arjun Singh,arjun.singh@example.com,39,Bangalore,Mobile,1.0,5347.0,2025-05-18,Debit Card,3.0,5,May,31-45
+1004,Neha Singh,neha.singh@example.com,48,Hyderabad,Tablet,5.0,30285.0,2025-05-19,Cash,1.0,5,May,46-60
+1142,Amit Nair,amit.nair@example.com,26,Bangalore,Tablet,1.0,28069.0,2025-05-20,Credit Card,2.0,5,May,18-30
+1101,Neha Iyer,neha.iyer@example.com,53,Bangalore,Mobile,1.0,5722.0,2025-05-22,Debit Card,5.0,5,May,46-60
+1188,Sneha Mehta,sneha.mehta@example.com,50,Delhi,Smartwatch,5.0,50646.0,2025-05-25,Debit Card,4.0,5,May,46-60
+1047,Priya Joshi,priya.joshi@example.com,32,Pune,Tablet,5.0,47679.0,2025-05-27,UPI,,5,May,31-45
+1127,Anjali Nair,anjali.nair@example.com,61,Pune,Headphones,3.0,68925.0,2025-05-29,Credit Card,2.0,5,May,61+
+1167,Rahul Nair,rahul.nair@example.com,21,Bangalore,Smartwatch,1.0,63174.0,2025-05-31,Credit Card,,5,May,18-30
+1033,Isha Gupta,isha.gupta@example.com,37,Mumbai,Mobile,3.0,25019.0,2025-06-01,Credit Card,5.0,6,Jun,31-45
+1113,Deepak Mehta,deepak.mehta@example.com,35,Mumbai,Smartwatch,1.0,12252.0,2025-06-01,UPI,5.0,6,Jun,31-45
+1012,Meena Iyer,meena.iyer@example.com,65,Delhi,Mobile,1.0,77414.0,2025-06-01,Credit Card,3.0,6,Jun,61+
+1164,Meena Joshi,meena.joshi@example.com,22,Chennai,Headphones,1.0,64642.0,2025-06-02,Cash,3.0,6,Jun,18-30
+1182,Vikram Mehta,vikram.mehta@example.com,63,Chennai,Smartwatch,5.0,42644.0,2025-06-03,UPI,2.0,6,Jun,61+
+1088,Suresh Verma,suresh.verma@example.com,39,Hyderabad,Smartwatch,1.0,49781.0,2025-06-03,Credit Card,4.0,6,Jun,31-45
+1115,Amit Singh,amit.singh@example.com,22,Delhi,Headphones,4.0,20627.0,2025-06-04,Debit Card,4.0,6,Jun,18-30
+1021,Amit Verma,amit.verma@example.com,55,Kolkata,Laptop,2.0,57846.0,2025-06-05,Cash,4.0,6,Jun,46-60
+1081,Priya Patel,priya.patel@example.com,54,Chennai,Mobile,2.0,43791.0,2025-06-05,UPI,3.0,6,Jun,46-60
+1076,Rohan Nair,rohan.nair@example.com,28,Pune,Headphones,5.0,57351.0,2025-06-06,Debit Card,3.0,6,Jun,18-30
+1062,Amit Verma,amit.verma@example.com,39,Mumbai,Tablet,3.0,30541.0,2025-06-08,UPI,1.0,6,Jun,31-45
+1136,Rahul Mehta,rahul.mehta@example.com,21,Chennai,Laptop,4.0,32778.0,2025-06-08,UPI,1.0,6,Jun,18-30
+1040,Isha Reddy,isha.reddy@example.com,44,Pune,Mobile,1.0,73884.0,2025-06-09,Credit Card,2.0,6,Jun,31-45
+1106,Ritu Nair,ritu.nair@example.com,32,Delhi,Headphones,1.0,75231.0,2025-06-10,UPI,1.0,6,Jun,31-45
+1133,Deepak Mehta,deepak.mehta@example.com,59,Bangalore,Tablet,2.0,37802.0,2025-06-11,Credit Card,2.0,6,Jun,46-60
+1124,Ritu Gupta,ritu.gupta@example.com,40,Delhi,Mobile,5.0,8526.0,2025-06-11,Credit Card,4.0,6,Jun,31-45
+1104,Amit Reddy,amit.reddy@example.com,41,Bangalore,Mobile,1.0,60454.0,2025-06-19,Credit Card,4.0,6,Jun,31-45
+1187,Neha Reddy,neha.reddy@example.com,57,Pune,Headphones,3.0,30132.0,2025-06-19,Debit Card,5.0,6,Jun,46-60
+1170,Suresh Nair,suresh.nair@example.com,28,Delhi,Mobile,3.0,26197.0,2025-06-25,Credit Card,1.0,6,Jun,18-30
+1162,Ritu Joshi,ritu.joshi@example.com,36,Delhi,Headphones,,13347.0,2025-06-26,Credit Card,4.0,6,Jun,31-45
+1042,Vikram Iyer,vikram.iyer@example.com,42,Chennai,Tablet,5.0,72728.0,2025-06-26,Debit Card,3.0,6,Jun,31-45
+1014,Karan Verma,karan.verma@example.com,36,Bangalore,Mobile,2.0,49934.0,2025-06-28,UPI,4.0,6,Jun,31-45
+1067,Kavya Verma,kavya.verma@example.com,39,Bangalore,Laptop,2.0,29574.0,2025-07-05,Debit Card,2.0,7,Jul,31-45
+1049,Neha Mehta,neha.mehta@example.com,34,Kolkata,Smartwatch,4.0,3324.0,2025-07-07,Credit Card,4.0,7,Jul,31-45
+1028,Karan Iyer,karan.iyer@example.com,28,Pune,Headphones,5.0,16512.0,2025-07-08,Cash,1.0,7,Jul,18-30
+1075,Priya Nair,priya.nair@example.com,42,Bangalore,Laptop,4.0,59137.0,2025-07-08,Cash,2.0,7,Jul,31-45
+1144,Neha Singh,neha.singh@example.com,55,Delhi,Tablet,1.0,77826.0,2025-07-10,Cash,1.0,7,Jul,46-60
+1169,Aarav Sharma,aarav.sharma@example.com,30,Chennai,Mobile,3.0,71103.0,2025-07-11,Credit Card,1.0,7,Jul,18-30
+1152,Ritu Mehta,ritu.mehta@example.com,59,Bangalore,Smartwatch,4.0,77266.0,2025-07-12,UPI,5.0,7,Jul,46-60
+1110,Priya Patel,priya.patel@example.com,58,Hyderabad,Tablet,4.0,8855.0,2025-07-13,Credit Card,2.0,7,Jul,46-60
+1100,Kavya Nair,kavya.nair@example.com,26,Hyderabad,Tablet,1.0,72187.0,2025-07-13,Cash,3.0,7,Jul,18-30
+1055,Deepak Verma,deepak.verma@example.com,47,Pune,Headphones,5.0,40152.0,2025-07-15,Debit Card,1.0,7,Jul,46-60
+1069,Deepak Iyer,deepak.iyer@example.com,28,Hyderabad,Headphones,5.0,56374.0,2025-07-15,UPI,5.0,7,Jul,18-30
+1018,Arjun Singh,arjun.singh@example.com,45,Kolkata,Laptop,4.0,30654.0,2025-07-15,Debit Card,3.0,7,Jul,31-45
+1064,Rohan Joshi,rohan.joshi@example.com,65,Chennai,Smartwatch,5.0,74155.0,2025-07-16,Credit Card,4.0,7,Jul,61+
+1096,Rahul Reddy,rahul.reddy@example.com,36,Mumbai,Headphones,4.0,36495.0,2025-07-16,Cash,5.0,7,Jul,31-45
+1041,Neha Iyer,neha.iyer@example.com,65,Chennai,Mobile,5.0,68116.0,2025-07-16,UPI,1.0,7,Jul,61+
+1155,Arjun Patel,arjun.patel@example.com,41,Pune,Smartwatch,3.0,51496.0,2025-07-18,UPI,4.0,7,Jul,31-45
+1156,Deepak Reddy,deepak.reddy@example.com,35,Chennai,Laptop,4.0,71690.0,2025-07-18,Debit Card,5.0,7,Jul,31-45
+1026,Arjun Mehta,arjun.mehta@example.com,47,Hyderabad,Laptop,4.0,23132.0,2025-07-19,UPI,5.0,7,Jul,46-60
+1180,Isha Reddy,isha.reddy@example.com,63,Delhi,Laptop,4.0,26479.0,2025-07-21,Cash,1.0,7,Jul,61+
+1129,Divya Patel,divya.patel@example.com,49,Kolkata,Smartwatch,4.0,29267.0,2025-07-23,Cash,3.0,7,Jul,46-60
+1087,Vikram Reddy,vikram.reddy@example.com,20,Chennai,Smartwatch,1.0,7438.0,2025-07-25,UPI,3.0,7,Jul,18-30
+1114,Manish Verma,manish.verma@example.com,40,Chennai,Smartwatch,1.0,13246.0,2025-07-28,Credit Card,4.0,7,Jul,31-45
+1045,Kavya Singh,kavya.singh@example.com,50,Delhi,Smartwatch,2.0,23780.0,2025-07-30,Credit Card,5.0,7,Jul,46-60
+1178,Ritu Sharma,ritu.sharma@example.com,18,Mumbai,Tablet,5.0,73471.0,2025-07-31,Credit Card,5.0,7,Jul,18-30
+1048,Vikram Patel,vikram.patel@example.com,52,Bangalore,Headphones,2.0,18822.0,2025-08-01,Cash,5.0,8,Aug,46-60
+1171,Sneha Sharma,sneha.sharma@example.com,53,Mumbai,Laptop,4.0,17699.0,2025-08-02,Cash,4.0,8,Aug,46-60
+1032,Ritu Verma,ritu.verma@example.com,40,Chennai,Headphones,5.0,44857.0,2025-08-06,Debit Card,3.0,8,Aug,31-45
+1037,Arjun Verma,arjun.verma@example.com,45,Chennai,Tablet,5.0,6724.0,2025-08-13,Cash,5.0,8,Aug,31-45
+1065,Anjali Sharma,anjali.sharma@example.com,45,Delhi,Tablet,5.0,22307.0,2025-08-13,Cash,3.0,8,Aug,31-45
+1116,Rahul Joshi,rahul.joshi@example.com,26,Hyderabad,Headphones,4.0,79408.0,2025-08-14,Cash,3.0,8,Aug,18-30
+1160,Sneha Reddy,sneha.reddy@example.com,56,Delhi,Headphones,3.0,56127.0,2025-08-15,Credit Card,2.0,8,Aug,46-60
+1070,Vikram Mehta,vikram.mehta@example.com,47,Mumbai,Mobile,1.0,55881.0,2025-08-19,Debit Card,5.0,8,Aug,46-60
+1126,Neha Gupta,neha.gupta@example.com,46,Kolkata,Laptop,3.0,12901.0,2025-08-19,Credit Card,2.0,8,Aug,46-60
+1179,Isha Joshi,isha.joshi@example.com,18,Hyderabad,Headphones,1.0,30564.0,2025-08-20,Cash,3.0,8,Aug,18-30
+1120,Vikram Nair,vikram.nair@example.com,40,Bangalore,Headphones,5.0,64798.0,2025-08-22,Debit Card,1.0,8,Aug,31-45
+1107,Arjun Iyer,arjun.iyer@example.com,46,Pune,Tablet,3.0,23685.0,2025-08-24,Debit Card,2.0,8,Aug,46-60
+1023,Kavya Reddy,kavya.reddy@example.com,25,Delhi,Smartwatch,5.0,34162.0,2025-08-26,Debit Card,2.0,8,Aug,18-30
+1063,Rohan Singh,rohan.singh@example.com,61,Kolkata,Tablet,5.0,60338.0,2025-08-26,Cash,3.0,8,Aug,61+
+1200,Rohan Reddy,rohan.reddy@example.com,44,Hyderabad,Smartwatch,,30252.0,2025-08-30,UPI,5.0,8,Aug,31-45
+1131,Rohan Patel,rohan.patel@example.com,32,Mumbai,Mobile,2.0,79314.0,2025-09-02,Debit Card,,9,Sep,31-45
+1030,Arjun Joshi,arjun.joshi@example.com,35,Delhi,Smartwatch,4.0,79156.0,2025-09-05,Cash,2.0,9,Sep,31-45
+1153,Rohan Nair,rohan.nair@example.com,59,Chennai,Smartwatch,1.0,58034.0,2025-09-05,UPI,5.0,9,Sep,46-60
+1051,Vikram Mehta,vikram.mehta@example.com,20,Pune,Laptop,4.0,38166.0,2025-09-08,Cash,2.0,9,Sep,18-30
+1134,Pooja Sharma,pooja.sharma@example.com,49,Kolkata,Mobile,1.0,33099.0,2025-09-11,Credit Card,5.0,9,Sep,46-60
+1172,Sneha Gupta,sneha.gupta@example.com,34,Mumbai,Laptop,5.0,27681.0,2025-09-12,UPI,3.0,9,Sep,31-45
+1078,Neha Patel,neha.patel@example.com,25,Mumbai,Mobile,4.0,75119.0,2025-09-13,Cash,3.0,9,Sep,18-30
+1043,Vikram Iyer,vikram.iyer@example.com,46,Mumbai,Mobile,3.0,14654.0,2025-09-15,Credit Card,5.0,9,Sep,46-60
+1196,Suresh Patel,suresh.patel@example.com,50,Hyderabad,Headphones,2.0,23237.0,2025-09-15,UPI,4.0,9,Sep,46-60
+1177,Isha Sharma,isha.sharma@example.com,22,Mumbai,Mobile,4.0,23179.0,2025-09-16,Debit Card,,9,Sep,18-30
+1080,Rohan Gupta,rohan.gupta@example.com,22,Hyderabad,Tablet,4.0,76853.0,2025-09-27,UPI,3.0,9,Sep,18-30
+1190,Rahul Sharma,rahul.sharma@example.com,65,Hyderabad,Laptop,5.0,9788.0,2025-10-01,Credit Card,1.0,10,Oct,61+
+1125,Pooja Sharma,pooja.sharma@example.com,54,Bangalore,Mobile,2.0,61442.0,2025-10-03,Debit Card,5.0,10,Oct,46-60
+1044,Meena Mehta,meena.mehta@example.com,33,Bangalore,Tablet,5.0,10468.0,2025-10-05,Cash,2.0,10,Oct,31-45
+1111,Arjun Sharma,arjun.sharma@example.com,38,Mumbai,Headphones,1.0,25008.0,2025-10-06,Credit Card,2.0,10,Oct,31-45
+1191,Neha Singh,neha.singh@example.com,61,Pune,Tablet,2.0,40566.0,2025-10-07,Cash,1.0,10,Oct,61+
+1079,Rahul Nair,rahul.nair@example.com,28,Pune,Laptop,3.0,40815.0,2025-10-09,UPI,3.0,10,Oct,18-30
+1008,Vikram Singh,vikram.singh@example.com,56,Pune,Tablet,3.0,70663.0,2025-10-09,Debit Card,2.0,10,Oct,46-60
+1016,Arjun Singh,arjun.singh@example.com,18,Pune,Tablet,4.0,75019.0,2025-10-10,Credit Card,1.0,10,Oct,18-30
+1031,Rahul Gupta,rahul.gupta@example.com,23,Chennai,Headphones,5.0,26542.0,2025-10-12,UPI,4.0,10,Oct,18-30
+1090,Priya Singh,priya.singh@example.com,42,Chennai,Mobile,4.0,70375.0,2025-10-15,Cash,2.0,10,Oct,31-45
+1005,Vikram Gupta,vikram.gupta@example.com,45,Delhi,Mobile,3.0,78122.0,2025-10-15,Debit Card,3.0,10,Oct,31-45
+1148,Divya Joshi,divya.joshi@example.com,51,Chennai,Mobile,4.0,72557.0,2025-10-16,UPI,4.0,10,Oct,46-60
+1117,Arjun Mehta,arjun.mehta@example.com,25,Bangalore,Laptop,5.0,73016.0,2025-10-16,Credit Card,4.0,10,Oct,18-30
+1029,Pooja Joshi,pooja.joshi@example.com,45,Kolkata,Laptop,3.0,71327.0,2025-10-17,Cash,1.0,10,Oct,31-45
+1057,Isha Gupta,isha.gupta@example.com,60,Bangalore,Laptop,2.0,21780.0,2025-10-23,Debit Card,2.0,10,Oct,46-60
+1066,Isha Singh,isha.singh@example.com,37,Bangalore,Laptop,2.0,47351.0,2025-10-26,Debit Card,2.0,10,Oct,31-45
+1046,Anjali Patel,anjali.patel@example.com,47,Hyderabad,Headphones,4.0,34280.0,2025-10-28,Cash,2.0,10,Oct,46-60
+1158,Manish Sharma,manish.sharma@example.com,44,Kolkata,Smartwatch,4.0,16248.0,2025-10-28,UPI,2.0,10,Oct,31-45
+1009,Aarav Joshi,aarav.joshi@example.com,63,Chennai,Mobile,1.0,10805.0,2025-10-29,Credit Card,2.0,10,Oct,61+
+1118,Kavya Mehta,kavya.mehta@example.com,52,Mumbai,Tablet,5.0,54034.0,2025-11-03,Debit Card,5.0,11,Nov,46-60
+1060,Pooja Sharma,pooja.sharma@example.com,37,Delhi,Tablet,1.0,28294.0,2025-11-03,UPI,2.0,11,Nov,31-45
+1198,Divya Iyer,divya.iyer@example.com,46,Kolkata,Tablet,5.0,19714.0,2025-11-06,UPI,2.0,11,Nov,46-60
+1035,Deepak Mehta,deepak.mehta@example.com,31,Bangalore,Smartwatch,5.0,14506.0,2025-11-14,UPI,3.0,11,Nov,31-45
+1089,Deepak Iyer,deepak.iyer@example.com,27,Delhi,Smartwatch,5.0,51332.0,2025-11-19,UPI,1.0,11,Nov,18-30
+1195,Rohan Sharma,rohan.sharma@example.com,43,Kolkata,Smartwatch,5.0,77377.0,2025-11-20,UPI,1.0,11,Nov,31-45
+1128,Amit Iyer,amit.iyer@example.com,46,Delhi,Smartwatch,4.0,50674.0,2025-11-20,Credit Card,1.0,11,Nov,46-60
+1072,Ritu Joshi,ritu.joshi@example.com,63,Chennai,Laptop,5.0,33211.0,2025-11-20,UPI,,11,Nov,61+
+1050,Isha Reddy,isha.reddy@example.com,25,Pune,Laptop,3.0,55016.0,2025-11-22,UPI,1.0,11,Nov,18-30
+1132,Vikram Mehta,vikram.mehta@example.com,51,Kolkata,Mobile,2.0,10466.0,2025-11-25,Credit Card,5.0,11,Nov,46-60
+1052,Manish Patel,manish.patel@example.com,21,Pune,Mobile,5.0,4299.0,2025-11-25,Cash,2.0,11,Nov,18-30
+1095,Rahul Singh,rahul.singh@example.com,65,Pune,Tablet,2.0,3346.0,2025-11-28,Cash,3.0,11,Nov,61+
+1093,Aarav Verma,aarav.verma@example.com,36,Delhi,Tablet,4.0,27643.0,2025-12-01,Cash,3.0,12,Dec,31-45
+1092,Pooja Patel,pooja.patel@example.com,30,Bangalore,Tablet,4.0,29547.0,2025-12-02,Cash,5.0,12,Dec,18-30
+1166,Divya Verma,divya.verma@example.com,24,Bangalore,Mobile,2.0,40006.0,2025-12-03,Debit Card,2.0,12,Dec,18-30
+1039,Amit Verma,amit.verma@example.com,21,Kolkata,Laptop,4.0,55665.0,2025-12-03,UPI,5.0,12,Dec,18-30
+1010,Kavya Reddy,kavya.reddy@example.com,44,Mumbai,Laptop,3.0,57019.0,2025-12-04,Debit Card,1.0,12,Dec,31-45
+1082,Deepak Joshi,deepak.joshi@example.com,54,Delhi,Mobile,5.0,45752.0,2025-12-04,Credit Card,1.0,12,Dec,46-60
+1054,Suresh Reddy,suresh.reddy@example.com,59,Chennai,Laptop,3.0,61536.0,2025-12-04,Credit Card,1.0,12,Dec,46-60
+1036,Rohan Reddy,rohan.reddy@example.com,52,Bangalore,Smartwatch,4.0,16543.0,2025-12-05,UPI,2.0,12,Dec,46-60
+1174,Priya Sharma,priya.sharma@example.com,40,Kolkata,Mobile,2.0,44578.0,2025-12-06,Debit Card,5.0,12,Dec,31-45
+1017,Divya Reddy,divya.reddy@example.com,44,Pune,Mobile,3.0,74885.0,2025-12-08,UPI,2.0,12,Dec,31-45
+1183,Meena Iyer,meena.iyer@example.com,36,Chennai,Smartwatch,4.0,71479.0,2025-12-08,Debit Card,1.0,12,Dec,31-45
+1123,Pooja Joshi,pooja.joshi@example.com,33,Chennai,Laptop,3.0,16948.0,2025-12-11,Cash,1.0,12,Dec,31-45
+1077,Anjali Sharma,anjali.sharma@example.com,22,Delhi,Smartwatch,1.0,18045.0,2025-12-14,UPI,3.0,12,Dec,18-30
+1006,Arjun Verma,arjun.verma@example.com,35,Kolkata,Laptop,1.0,71881.0,2025-12-15,Cash,1.0,12,Dec,31-45
+1165,Isha Mehta,isha.mehta@example.com,36,Pune,Headphones,1.0,66691.0,2025-12-15,Cash,4.0,12,Dec,31-45
+1145,Amit Iyer,amit.iyer@example.com,31,Mumbai,Tablet,2.0,47892.0,2025-12-16,UPI,3.0,12,Dec,31-45
+1068,Amit Singh,amit.singh@example.com,20,Delhi,Mobile,2.0,58866.0,2025-12-21,Debit Card,3.0,12,Dec,18-30
+1181,Deepak Iyer,deepak.iyer@example.com,24,Chennai,Mobile,2.0,18327.0,2025-12-21,Debit Card,5.0,12,Dec,18-30
+1189,Kavya Patel,kavya.patel@example.com,65,Delhi,Smartwatch,4.0,10952.0,2025-12-26,UPI,3.0,12,Dec,61+
+1091,Pooja Reddy,pooja.reddy@example.com,48,Bangalore,Headphones,4.0,43055.0,2025-12-27,Cash,5.0,12,Dec,46-60
